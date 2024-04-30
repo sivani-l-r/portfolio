@@ -43,7 +43,7 @@
                         <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Experience</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
@@ -73,7 +73,7 @@
                             <span class="mr-2">Hey folks, I'm</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Sivani L R</span>
-                                    <span class="animated-item">Full Stack Developer</span>
+                                    <span class="animated-item">Web Developer</span>
                                     <span class="animated-item">Mobile Developer</span>
                                 </div>
                         </h1>
@@ -170,6 +170,26 @@
         padding: 10px;
         background-color: #D7E5CA;
       }
+      .link-container {
+      margin-top: 10px;
+      padding-bottom: 5px;
+    }
+
+    .project-link {
+      display: inline-block;
+      padding: 5px 10px;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      text-decoration: none;
+      color: #333;
+      background-color: #f0f0f0; 
+    }
+
+    .project-link:last-child {
+      margin-right: 0;
+    }
+
+
     </style>
     
 
@@ -183,6 +203,61 @@
         
         <div class="owl-carousel owl-theme">
           <!-- Tile 1 -->
+
+          <div class="item">
+            <div class="project-tile">
+              <div class="project-wrapper">
+                <div class="project-description">
+                  <h3>Bookmark Alert</h3>
+                  <p>A chrome extension that allows users to set reminders for sites they want to visit again.</p>
+                  
+                  <div class="link-container">
+                    <a class="project-link" href="https://chromewebstore.google.com/detail/bookmark-alert/ojkdbnmhldcgoghfhabnceghhepnccnd">Chrome Store Link</a>
+                    <a class="project-link" href="https://github.com/sivani-l-r/Bookmark-Reminder-Extension">Github Repo</a>
+                  </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/NCE9Qpcw_8g?si=QS6tj19_Z0YYJJld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="project-tile">
+              <div class="project-wrapper">
+                <div class="project-description">
+                  <h3>DSA Tracker</h3>
+                  <p>A web application build using MERN stack, to help you track and manage your DSA prep for placements. Features: Add, filter, edit, view stats, detailed questions, calendar heatmap, export to PDF, share stats, streaks, profile page. This project was selected as one of the top projects for Tink-Her-Hack 2.0</p>
+                  
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/DSA_Tracker-Web">Github Repo</a>
+                  </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/8YfLGzNUPvY?si=NUj7fPbjuNmBHw62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="project-tile">
+              <div class="project-wrapper">
+                <div class="project-description">
+                  <h3>Zone AI</h3>
+                  <p>A web application that serves as a mood tracker. It's features include tracking your mood, analyzing your mood patterns abd help you improve your mental health. This project was developed for Level 1 of Seashore Hackathon conducted by Gtech Mulearn for AI Track. The project was selected and we got the opportunity to attend the main hackathon. </p>
+                  
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/zone-ai">Github Repo</a>
+                  </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/83bHjE0BPW0?si=GXcRr7MSxtYeg4Dq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
           <div class="item">
             <div class="project-tile">
               <div class="project-wrapper">
@@ -190,8 +265,11 @@
                   <h3>Weather Forecaster</h3>
                   <p>This is a Python tkinter-based Weather Forecast GUI app that provides city weather forecasts, allows saving favorite cities, toggling between Celsius and Fahrenheit, copying weather data to the clipboard, and automatically detecting the user's location for weather updates.</p>
                 
-                  <a href="https://github.com/sivani-l-r/CodingSamurai-Task1-Weather-Forecaster">View Project</a>
-                  <img src="images\project\2.png" alt="Description of the image">
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/Weather-Forecaster">Github Repo</a>
+                  </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/tADsCfq67BQ?si=tWg6q9DSfRVPJWQJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
               </div>
             </div>
@@ -204,14 +282,43 @@
                 <div class="project-description">
                   <h3>Expense Tracker</h3>
                   <p>This is a user-friendly Expense Tracker App created with Python's tkinter library. It offers features like viewing, tracking, and deleting expenses, as well as a visual chart using Matplotlib for analyzing expenses over time. It's designed to help users efficiently manage their finances.</p>
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/Expense-Tracker">Github Repo</a>
+                  </div>
+
                   <img src="images\project\3.png" alt="Description of the image">
                 
-                  <!-- <a href="project2-link">View Project</a> -->
+
                   
                 </div>
               </div>
             </div>
           </div>
+
+          
+
+          <!-- Tile 4 -->
+          <div class="item">
+            <div class="project-tile">
+              <div class="project-wrapper">
+                <div class="project-description">
+                  <h3>AICSSYC Assist</h3>
+                  <p>This is a Python chatbot for the 2023 All India Computer Society Students & Young Professional Congress, using the ChatterBot library for responses. This was build for the chatbot competition conducted as part of AICSSYC 2023.</p>
+              
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/AICSSYC-Assist">Github Repo</a>
+                  </div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/uFdC_AtggWk?si=0tZulPS0w6DcTO5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tile 2 -->
+          
 
           <!-- Tile 3 -->
           <div class="item">
@@ -220,43 +327,12 @@
                 <div class="project-description">
                   <h3>Stellar Survivor</h3>
                   <p>This is a Pygame-based game where you navigate a spaceship to avoid enemies and gather points. Test your reflexes and try to survive in space for as long as possible!</p>
-                
-                  <a href="https://github.com/sivani-l-r/Stellar-Survivor">View Project</a>
-                  <img src="images\project\4.png" alt="Description of the image">
-                  
-                </div>
-              </div>
-            </div>
-          </div>
+                  <div class="link-container">
+                    
+                    <a class="project-link" href="https://github.com/sivani-l-r/Stellar-Survivor">Github Repo</a>
+                  </div>
 
-          <!-- Tile 4 -->
-          <div class="item">
-            <div class="project-tile">
-              <div class="project-wrapper">
-                <div class="project-description">
-                  <h3>AICSSYC Assist</h3>
-                  <p>AICSSYCAssist" is a Python chatbot for the 2023 All India Computer Society Students & Young Professional Congress, using the ChatterBot library for responses.</p>
-                
-                 
-                  <a href="https://github.com/sivani-l-r/AICSSYCAssist-">View Project</a>
-                  <img src="images\project\1.png" alt="Description of the image">
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tile 2 -->
-          <div class="item">
-            <div class="project-tile">
-              <div class="project-wrapper">
-                <div class="project-description">
-                  <h3>IConnect</h3>
-                  <p>IConnect is a simple app for connecting people based on their interests. It currently features a profile section where you can add and edit your interests. Stay tuned for more updates!</p>
-                  
-                  <!-- <a href="project2-link">View Project</a> -->
-                  <img src="images\project\5.png" alt="Description of the image">
-
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/y7pCN0p6uGs?si=dfbp-2JGyZxYoByy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   
                 </div>
               </div>
